@@ -1,0 +1,89 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.body {
+  width: 100%;
+  height: 70px;
+}
+
+.img-center {
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.background:hover{
+  opacity: 1.0;
+}
+
+.Navvv {
+  position: absolute;
+  z-index: 1;
+}
+
+#Feedback {
+  background-color: #eee;
+  font-size: 12px;
+  line-height: 70px;
+}
+
+.Rat {
+  padding-top: 3px;
+  font-size: 8px;
+  float: right;
+}
+
+.ing {
+  padding-top: 3px;
+  font-size: 8px;
+  float: right;
+}
+
+#tab {
+  background-color: #eee;
+}
+
+.class {
+  background-color: #eee;
+}
+
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  width: 30%;
+  display: inline-block;
+  border-radius: 300px;
+  float: right;
+}
+
+#text {
+  width: 60%;
+  height: auto;
+  display: inline;
+}
+
+.navigation {
+  background-color: #eee;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 70px;
+}
